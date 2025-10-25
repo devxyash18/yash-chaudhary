@@ -1,72 +1,104 @@
-*<!DOCTYPE html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-     <title>My Resume</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-     <h1 style="text-align: center;">MY RESUME</h1>
-     <h2 style="text-align: center;">YASH CHAUDHARY</h2>
-     <p style="text-align: center;">Ghaziabad, Uttar Pradesh| Ph no 9871249575|  <a href="https://www.linkedin.com/in/yash-chaudhary-57020232b/"target="blank">Linkedin</a></p>
-     <hr>
-     <h3>About Me</h3>
-     <p>I am proficient in Python and have a good working knowledge of C++ and C. I possess strong problem-solving skills and a solid understanding of programming fundamentals. I am eager to apply my coding abilities to real-world projects and continuously enhance my technical skills.</p>
-     <HR>
-     <h3>Skills</h3>
-     <p><b>Technical skills</b></p>
-     <ul>
-     <li>CPP</li>
-     <li>C</li>
-     <li>PYTHON</li>
-     </ul>
-     <p><b>Soft skills</b></p>
-     <ul>
-     <li>Communication</li>
-     <li>Teamwork</li>
-     </ul>
-     <hr>
-     <h3>Education</h3>
-     <TABLE BORDER="1">
-     <tr>
-        <th>CLASS</th>
-        <th>COLLEGE</th>
-        <th>UNIVERSITY</th>
-        <th>PASS OUT</th>
-        <th>PERCENTAGE</th>
-     </tr>
-     <tr>
-        <td>10TH</TD>
-        <td>SuUNDERDEEP WORLD SCHOOL</td>
-        <td>CBSE</td>
-        <td>2021</td>
-        <td>94%</td>
-    </tr>
-    <tr>
-       <td>12TH</td>
-       <td>DEHRADUN PUBLIC SCHOOL</td>
-       <td>CBSE</td>
-       <td>2023</td>
-       <td>85%</td>
-    </tr>
-    <tr>
-       <td>B TECH</td>
-       <td>SIT</td>
-       <td>DEEMED</td>
-       <td>2028</td>
-       <td>87%</td>
-    </tr>
-</table>
-    <h3>Projects</h3>
-    <ul>
-    <li>Developed AI-powered chatbot using Python and Dialogflow for customer queries</li>
-    <li>Integrated chatbot with company website and CRM system for seamless support</li>
-    <li>Trained NLP models to understand and respond to common customer issues</li>
-    <li>Reduced average response time by 40%, increasing customer satisfaction scores</li>
-    <p>For more info:<a href="https://github.com//"target="blank">Github</a></p>
-    </ul>
-    <h3>Certificates</h3>
-    <ul>
-    <li>NPTEL Certification course of JAVA from IIT kharagpur</li>
-    <li>Python certification course of Python from ADOBE</li>
-    </ul>
+
+<div class="container">
+    <header>
+        <h1>YASH CHAUDHARY</h1>
+        <p>Ghaziabad, Uttar Pradesh | Ph: 9871249575 | 
+            <a href="https://www.linkedin.com/in/yash-chaudhary-57020232b/" target="_blank">LinkedIn</a>
+        </p>
+        <hr>
+    </header>
+
+    <section>
+        <h2>About Me</h2>
+        <p>I am proficient in Python and have a good working knowledge of C++ and C. I possess strong problem-solving skills and a solid understanding of programming fundamentals. I am eager to apply my skills to real-world projects and continuously enhance my technical abilities.</p>
+    </section>
+
+    <section>
+        <h2>Skills</h2>
+        <div class="columns">
+            <div>
+                <h3>Technical Skills</h3>
+                <ul>
+                    <li>C++</li>
+                    <li>C</li>
+                    <li>Python</li>
+                </ul>
+            </div>
+            <div>
+                <h3>Soft Skills</h3>
+                <ul>
+                    <li>Communication</li>
+                    <li>Teamwork</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Education</h2>
+        <table>
+            <tr>
+                <th>Class</th>
+                <th>School/College</th>
+                <th>Board/University</th>
+                <th>Year</th>
+                <th>Score</th>
+            </tr>
+            <tr>
+                <td>10th</td>
+                <td>UNDERDEEP WORLD SCHOOL</td>
+                <td>CBSE</td>
+                <td>2021</td>
+                <td>94%</td>
+            </tr>
+            <tr>
+                <td>12th</td>
+                <td>DEHRADUN PUBLIC SCHOOL</td>
+                <td>CBSE</td>
+                <td>2023</td>
+                <td>85%</td>
+            </tr>
+            <tr>
+                <td>B.Tech</td>
+                <td>SIT</td>
+                <td>Deemed</td>
+                <td>2028</td>
+                <td>87%</td>
+            </tr>
+        </table>
+    </section>
+
+    <section>
+        <h2>Projects</h2>
+        <ul>
+            <li>Developed AI-powered chatbot using Python and Dialogflow for customer support</li>
+            <li>Integrated chatbot with company website and CRM</li>
+            <li>Trained NLP models for automated responses</li>
+            <li>Reduced response time by 40%, improving satisfaction scores</li>
+        </ul>
+        <p>More info: 
+            <a href="https://github.com/" target="_blank">GitHub</a>
+        </p>
+    </section>
+
+    <section>
+        <h2>Certificates</h2>
+        <ul>
+            <li>NPTEL Certification – Java, IIT Kharagpur</li>
+            <li>Python Certification – Adobe</li>
+        </ul>
+    </section>
+
+</div>
+
 </body>
 </html>
